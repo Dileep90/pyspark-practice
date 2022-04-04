@@ -2,7 +2,7 @@ import pyspark
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
-spark = SparkSession.builder.appName('pyspark-practice.com').getOrCreate()
+spark = SparkSession.builder.appName('pyspark-practice').getOrCreate()
 
 simpleData = [("James", "Sales", 3000),
     ("Michael", "Sales", 4600),
